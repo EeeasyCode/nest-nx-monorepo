@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "cli": "nx",
+  "title": "Create NestJS Application",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of your application",
+      "x-prompt": "Enter the name of your application"
+    },
+    "directory": {
+      "type": "string",
+      "description": "Directory where the project will be created",
+      "x-prompt": "Enter the directory for your application (e.g., packages/apps)"
+    }
+  },
+  "required": ["name", "directory"]
+}

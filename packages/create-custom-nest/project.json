@@ -1,0 +1,21 @@
+{
+  "name": "create-custom-nest",
+  "root": "packages/create-custom-nest",
+  "sourceRoot": "packages/create-custom-nest/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/create-custom-nest",
+        "main": "packages/create-custom-nest/src/index.ts",
+        "tsConfig": "packages/create-custom-nest/tsconfig.json",
+        "assets": [
+          "packages/create-custom-nest/generators.json",
+          "packages/create-custom-nest/src/generators/**/*"
+        ]
+      }
+    }
+  }
+}

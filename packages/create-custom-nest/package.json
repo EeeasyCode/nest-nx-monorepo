@@ -1,0 +1,10 @@
+{
+  "name": "@custom/create-custom-nest",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "generators": "./generators.json",
+  "dependencies": {
+    "@nrwl/devkit": "^19.8.4",
+    "@nrwl/nest": "^19.8.4"
+  }
+}
